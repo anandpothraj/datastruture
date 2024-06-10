@@ -89,17 +89,17 @@ class LinkedListWithTail{
     }
 }
 
-let list = new LinkedListWithTail();
-console.log(list.isEmpty());             // true
-console.log(list.getSize());             // 0
-list.append(20);                         // 20
-list.append(30);                         // 20 30
-list.append(40);                         // 20 30 40
-list.prepend(10);                        // 10 20 30 40
-list.removeFromFront();                  // 20 30 40
-list.removeFromEnd();                    // 20 30
-list.print();                            // 20 30
-console.log(list.isEmpty());             // false
-console.log(list.getSize());             // 2
+// let list = new LinkedListWithTail();
+// console.log(list.isEmpty());             // true
+// console.log(list.getSize());             // 0
+// list.append(20);                         // 20
+// list.append(30);                         // 20 30
+// list.append(40);                         // 20 30 40
+// list.prepend(10);                        // 10 20 30 40
+// list.removeFromFront();                  // 20 30 40
+// list.removeFromEnd();                    // 20 30
+// list.print();                            // 20 30
+// console.log(list.isEmpty());             // false
+// console.log(list.getSize());             // 2
 
 module.exports = LinkedListWithTail;
